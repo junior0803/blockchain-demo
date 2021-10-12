@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)https://wallet-helper.blockchain.com/wallet-helper/matomo/#/?siteId=3 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" async="" defer="" src="./js"></script><script nonce="">
+      window.NONCE = 'ti6PMZ4I3lvUh1YpnwY9vn38FoBDYMoz'
+    </script>
+    <script type="text/javascript" nonce="">
+      function getSiteIdFromQueryString() {
+        var regex = new RegExp('[?&]siteId(=([^&#]*)|&|#|$)'),
+          results = regex.exec(window.location.href)
+        // default to siteId to 2 (staging)
+        if (!results || !results[2]) return 2
+        return decodeURIComponent(results[2].replace(/\+/g, ' '))
+      }
+
+      var _paq = _paq || []
+      _paq.push(['disableCookies'])
+      _paq.push(['trackPageView'])
+      _paq.push(['enableLinkTracking'])
+      _paq.push(['enableHeartBeatTimer'])
+      ;(function() {
+        var siteId = getSiteIdFromQueryString()
+        var u = '/'
+        _paq.push(['setTrackerUrl', u + 'a'])
+        _paq.push(['setSiteId', siteId])
+        var d = document,
+          g = d.createElement('script'),
+          s = d.getElementsByTagName('script')[0]
+        g.type = 'text/javascript'
+        g.async = true
+        g.defer = true
+        g.src = u + 'a/js'
+        s.parentNode.insertBefore(g, s)
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="matomo"></div>
+  <script type="text/javascript" src="./index.js.download"></script>
+
+</body></html>

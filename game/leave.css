@@ -1,0 +1,170 @@
+﻿/* Styling FSCS Logo */
+.page-footer__FSCS-Logo .FSCS-Logo {
+    max-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* Container for the FSCS Logo */
+.page-footer__FSCS-Logo {
+    text-align: left;
+}
+
+.page-footer__social-media {
+    position: relative;
+}
+
+.page-footer__social-media .footer-heading {
+    display: inline-block;
+    padding: 17px 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.page-footer__social-media ul {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.page-footer__social-media li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.page-footer__social-media li .twitter:before {
+    font-family: "NBS Icons";
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1;
+    color: inherit;
+    content: "\e023";
+}
+
+.page-footer__social-media li .facebook:before {
+    font-family: "NBS Icons";
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1;
+    color: inherit;
+    content: "\e025";
+}
+
+.page-footer__social-media li .youtube:before {
+    font-family: "NBS Icons";
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1;
+    color: inherit;
+    content: "\e0c0";
+}
+
+.page-footer__social-media li .linkedin:before {
+    font-family: "NBS Icons";
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1;
+    color: inherit;
+    content: "\e0bf";
+}
+
+@media (min-width: 600px) {
+    .page-footer__social-media {
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .page-footer__social-media .footer-heading {
+        padding: 12px 165px 12px 0;
+        width: 100%;
+        position: relative;
+        text-align: right;
+    }
+
+    .page-footer__social-media ul {
+        padding: 0;
+    }
+
+    /* Container for the FSCS Logo */
+    .page-footer__FSCS-Logo {
+        text-align: right;
+    }
+
+    /* Styling FSCS Logo */
+    .page-footer__FSCS-Logo .FSCS-Logo {
+        max-width: 245px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 750px) {
+    .page-footer__social-media .footer-heading {
+        padding-right: 180px;
+    }
+}
+
+[data-icon]::before,
+[data-icon] .icon {
+    font-family: NBS Icons;
+    font-weight: normal;
+    content: attr(data-icon);
+    speak: none;
+    text-decoration: none;
+}
+
+.iconStyle01::before {
+    color: #a0a3a6;
+    font-size: 35px;
+    padding: 0 10px 0 0;
+    float: left;
+    /*height: 90px;*/
+}
+
+.iconStyle02::before {
+    color: #a0a3a6;
+    font-size: 25px;
+    padding: 0 10px 0 0;
+    float: left;
+    height: 40px;
+}
+
+table#tablePrintSave {
+    margin-top: 0;
+}
+
+.terms-and-conditions ol:not(.alpha) {
+    counter-reset: item;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.terms-and-conditions ol:not(.alpha)>li {
+    display: table;
+    border-collapse: collapse;
+}
+
+.terms-and-conditions ol:not(.alpha)>li:before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+    display: table-cell;
+    padding-right: 0.6em;
+}
+
+.terms-and-conditions ol.alpha {
+    list-style-type: lower-alpha;
+}
+
+.terms-and-conditions ul {
+    list-style-type: disc;
+}
+
+.terms-and-conditions p,
+.terms-and-conditions h3 {
+    margin-top: 0;
+}

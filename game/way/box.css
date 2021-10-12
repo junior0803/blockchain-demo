@@ -1,0 +1,41 @@
+﻿/* colorbox CSS */
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper {position:absolute;top:0;left:0;z-index:9999;}
+#colorbox, #cboxOverlay {overflow:hidden;}
+#cboxOverlay {position:fixed;width:100%;height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft {clear:left;}
+#cboxContent {position:relative;overflow:hidden;}
+#cboxLoadedContent {overflow:hidden;}
+#cboxLoadedContent iframe {display:block;width:100%;height:100%;border:0;}
+#cboxTitle {margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic {position:absolute;top:0;left:0;width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {cursor:pointer;}
+/* colorbox custom styles */
+#cboxOverlay {background:#000;}
+#colorbox {}
+#cboxTopLeft {width:20px;height:21px;background:url(lb-container-top-left.png) 0 0 no-repeat;}
+#cboxTopRight {width:20px;height:21px;background:url(lb-container-top-right.png) 0 0 no-repeat;}
+#cboxBottomLeft {width:20px;height:14px;background:url(lb-container-bottom-left.png) 0 0 no-repeat;}
+#cboxBottomRight {width:15px;height:14px;background:url(lb-container-bottom-right.png) 0 0 no-repeat;}
+#cboxMiddleLeft {width:20px;background:url(lb-container-middle-left.png) 0 0 no-repeat;}
+#cboxMiddleRight {width:20px;background:url(lb-container-middle-right.png) 0 0 no-repeat;}
+#cboxTopCenter {height:21px;background:url(lb-container-top-middle.png) 0 0 repeat-x;}
+#cboxBottomCenter {height:14px;background:url(lb-container-bottom-middle.png) 0 0 repeat-x;}
+#cboxContent {background:#fff;}
+#cboxLoadedContent {margin-bottom:25px;}
+#cboxTitle {position:absolute;bottom:4px;left:0;text-align:center;width:100%;color:#949494;}
+#cboxCurrent {position:absolute;bottom:4px;left:58px;color:#949494;}
+/*#cboxLoadingOverlay {background:url(loading_background.png) center center no-repeat;}
+#cboxLoadingGraphic {background:url(loading.gif) center center no-repeat;}*/
+
+#cboxClose {color:#fff;height:20px;position:absolute;right:5px;top:0;width:30px;}
+#cboxClose i {background:url(close-btn.png) -1px -3px no-repeat;width:30px;height:20px;position:absolute;top:0;left:0;padding:1px 10px 0 4px;cursor:pointer;}
+#cboxClose:hover i {background-position:-1px -27px;}
+#cboxClose:active i, #cboxClose:focus i {background-position:-1px -51px;}
+#cboxClose b {width:22px;height:13px;left:2px;padding:2px 0 0;top:0;font-size:8.5px;background:#1963AD;}
+#cboxClose:hover b {background:#207cd9;}
+#cboxClose:active b, #cboxClose:focus b {background:#00387D;}

@@ -1,0 +1,177 @@
+﻿/* Login screens pod specific styling */
+#stage .login-pod {margin:0 0 10px 0;}
+#stage .login-pod h2 {font-weight:bold;color:#049;margin:0 10px 10px 0;display:inline-block;vertical-align:middle;}
+
+/* Other common elements */
+#stage label {font-size:13px;vertical-align:middle;}
+#stage .checkbox {vertical-align:middle;}
+
+/* Button */
+#stage .slim-inner-box {position:absolute;height:19px;margin:5px;width:81px;right:1px;bottom:5px;background:#EFEFEF;}
+#stage .slim-inner-box .btn-border {position:absolute;bottom:2px;right:2px;width:64px;z-index:2;}
+#stage .button-row {position:relative;height:28px;margin-top:5px;}
+#stage .button-row .inner-box-border {float:right;}
+#stage .button-row .inner-box-border {padding:3px; margin:0;width:83px;}
+
+/* Inner rounded information box */
+#stage .login-pod .information-box h2, .information-box.securityAdvice h2 {color:#3D3F43;padding-bottom:10px;clear:both;width:100%;}
+#stage ul {list-style-type:none;padding:0; margin:0;}
+
+/* Side content */
+#stage .side-content-column {padding:10px;}
+#stage .side-content-column h3 {margin:8px 0 0 0;font-size:13px;}
+#stage .side-content-column .side-link img {vertical-align:middle;margin:0 1px 0 3px;}
+
+/* Custom tooltips */
+#forgottenDetailsTooltip, #forgottenPassnumberTooltip {background-color:#fff;border:1px solid #999;background:#fff url(customTooltipGradient.jpg) repeat-x 0 100%;}
+#helpTooltip {background-color:#fff;border:1px solid #AC9465;background:url(helpBackgroundGradientFade.jpg) repeat-x 0 0;}
+
+/* Information box columns */
+#stage .information-box .left-col {width:160px;float:left;}
+#stage .information-box .right-col {padding:0 0 0 160px;}
+
+/* SIG.01 */
+#stage .cust-num-box {padding:10px 10px 15px;}
+#log-in #stage .cust-num-box .checkbox {width:15px;margin:0;border:0;}
+#log-in #stage .cust-num-box .inner-box-border p {margin:0;}
+#log-in #stage .cust-num-box .rem-cust-num {position:relative;padding:10px 0 0;clear:both;}
+#log-in #stage .cust-num-box .rem-cust-num label {padding:0 5px;}
+#log-in .inner-box-border input {margin:0 8px 0 10px;}
+
+#log-in .cust-num-input {clear:both;width:100%;}
+#log-in .cust-num-input label, #log-in .cust-num-input input {float:left;margin-bottom:5px;}
+#log-in .cust-num-input .tooltip-reveal-link {width:201px;top:3px;padding-right:18px;margin-bottom:5px;display:block;}
+
+#log-in #stage .custom-tooltip-link {margin:0 0 10px 0;float:left;width:100%;clear:both;}
+#log-in #stage .custom-tooltip-link .checkbox, #log-in #stage .custom-tooltip-link label, #log-in #stage .custom-tooltip-link a.help-reveal {float:left;}
+#log-in #stage .custom-tooltip-link a.help-reveal {top:-2px;}
+
+#log-in #stage .information-box .left-col {background:url(laptopHolderImage.png) no-repeat 0px 0px; height:85px; width:150px;}
+
+/* SIG.05 */
+#log-in-details #stage .inner-box p {margin:0 0 10px 0;}
+#log-in-details #stage .digit-row {width:159px;text-align:right;padding:10px 0 0;} /* 104 text + 10 spacing + 45 dropdown = 159 width */
+#log-in-details #stage .digit-row.last-digit-row { margin-bottom:10px; }
+#log-in-details #stage .digit-row label {padding:0 10px 0 0;}
+#log-in-details #stage .digit-row select {width:45px;border:1px solid #7FA1CC;}
+#log-in-details #stage .button-row .inner-box-border {width:62px;}
+#log-in-details #stage .forgotten-details-link {position:relative;padding-right:20px;width:233px;display:block;top:3px;}
+#log-in-details #stage .forgotten-passnumber-link {position:relative;padding-right:20px;width:172px;display:block;top:3px;}
+#log-in-details #stage .forgotten-details-link strong, #log-in-details #stage .forgotten-passnumber-link strong {padding-right:3px;}
+#log-in-details #stage #revealLinkArrow {display:inline-block;z-index:300;width:18px;height:17px;background:url(revealLinkArrow.png) no-repeat 5px 5px;position:relative;border:none;vertical-align:middle;}
+#log-in-details #stage #tabPlaceholder {width:18px;height:17px;position:relative; vertical-align:middle; display:inline-block;top:0;border:none;}
+#log-in-details #stage .forgotten-details-link-focus {background:url(customToolTipTabs.png) no-repeat -23px -3px;}
+#log-in-details #stage .ctool .custom-inner .link {color:#0057c0;}
+#log-in-details #stage .ctool .custom-inner .link:hover {cursor:pointer; text-decoration:underline;}
+#log-in-details #stage .inner-box #forgottenDetailsTooltip p, #log-in-details #stage .inner-box #forgottenPassnumberTooltip p {margin:0;}
+#log-in-details #stage .incorrect-mem-data-msg {display:none;}
+#log-in-details #stage .information-box .left-col {background:url(laptopHolderImage.png) no-repeat 0 0;height:85px;width:150px;}
+#log-in-details #stage .custom-tooltip-link {clear:both;float:left;width:100%;}
+#log-in-details #stage .custom-tooltip-link label, #log-in-details #stage .custom-tooltip-link input, #log-in-details #stage .custom-tooltip-link .forgotten-details-link {float:left;}
+#log-in-details #stage .inner-box-border input {width:24.5%;}
+#log-in-details #stage .side-content-column img {display:block;}
+
+/* SIG.06 */
+#log-in-security #stage .content-pod strong {display:block; margin:0 0 10px 0; font-size:14px;}
+#log-in-security #stage .quest-reqs p {padding:0 0 10px 10px;margin:0; font-size:13px;}
+
+#log-in-security #stage .question-row {padding:0 0 10px;}
+#log-in-security #stage .question-row label {padding:0 10px 0 100px;}
+#log-in-security #stage .question-row select {width:328px;}
+
+#log-in-security #stage .answer-row {padding:0 0 15px;}
+#log-in-security #stage .answer-row label {padding:0 0 0 121px;}
+#log-in-security #stage .answer-row input {width:260px;}
+
+#log-in-security #stage hr {height:1px;border-width:0;color:#ddd;background-color:#ddd;margin:0 0 10px;}
+#log-in-security #stage .duplicate-questions-msg, .duplicate-answers-msg {display:none;}
+
+/* CHA.01 */
+rem #security-question #stage .page-msg {display:none;}
+#security-question #stage #sec-title{margin-bottom: 50px;}
+#security-question #stage .sec-quest-input label, #security-question #stage .sec-quest-input input {float:left;}
+#security-question #stage .inner-box-border input {width:170px;margin:0 0 0 10px;}
+
+/* CHA.02, CHA.03, SIG.04 */
+#log-in-reader #stage .main-content-column .login-pod .cust-num-box {margin:5px 0 0;font-size:13px;}
+#log-in-reader #stage .main-content-column .login-pod .cust-num-box img {vertical-align:middle;padding:0 7px;}
+#log-in-reader #stage .main-content-column .login-pod .cust-num-box img.inline {padding:0;}
+#log-in-reader #stage .main-content-column .login-pod .cust-num-box h3 {font-size:14px;padding:0 0 10px;}
+#log-in-reader #stage .main-content-column .login-pod .cust-num-box .inner-box-border a {font-size:15px;display:inline-block;margin:0 0 0 10px;vertical-align:top;}
+#log-in-reader #stage .main-content-column .login-pod .cust-num-box .inner-box-border i {width:50px;}
+#log-in-reader #stage .main-content-column .login-pod .information-box h2 {font-size:12px;}
+#log-in-reader #stage .main-content-column .login-pod .information-box img {vertical-align:middle;margin:0 7px;display:inline-block;}
+#log-in-reader #stage .main-content-column .login-pod .information-box img.inline {margin:0;display:inline;}
+#log-in-reader #stage .main-content-column .login-pod .information-box p {display:inline-block;}
+
+#log-in-reader #stage .list-text {margin:0 0 15px;}
+#log-in-reader #stage .list-text p {margin:0;}
+
+#log-in-reader #stage .main-content-column .login-pod .cust-num-box .inner-box-border #authoriseButton i {width:66px;}
+#log-in-reader #stage .inner-box-border input {width:160px;border:1px solid #7FA1CC;margin:0 0 0 10px;line-height:120%;}
+#log-in-reader #stage .inner-box-border select {margin:0 10px;}
+#log-in-reader #stage .section-header {margin:0 0 10px;}
+
+#stage .last-item p {margin:0 0 10px;}
+#stage .login-pod #notMyNumber {text-decoration:none;font-size:12px;padding:0 0 0 10px;color: #004499;display: inline-block;margin: 0 10px 10px 0;vertical-align: middle;}
+#stage .login-pod #helpTooltipLink {text-decoration:none;}
+#stage .login-pod a strong:visited{text-decoration:underline;}
+#stage .login-pod a strong:hover{text-decoration:underline;}
+#stage .login-pod a strong:active{text-decoration:underline;}
+
+/* CHA.02, CHA.03 Cancel Challenge */
+#log-in-reader #stage #cancelRCAChallengeButton {float:right;margin-top:5px;width:109px;}
+#log-in-reader #stage #cancelRCAChallengeButton b {width:104px;}
+#log-in-reader #stage #cancelRCAChallengeButton i {width:109px;}
+
+/* SIG.08 */
+#login-lite-details .main-content-column p {font-size:13px;}
+#login-lite-details #stage .side-content-column {padding-top:0;}
+#login-lite-details #stage .side-content-column h3 {margin-top:0;}
+#login-lite-form p {margin-bottom:10px;}
+#login-lite-details .main-content-column .information-box p {font-size:inherit;}
+div.login-pod #login-lite-form h2 {color:#3D3F43;font-size:13px;margin-bottom:3px;}
+#login-lite-form .inner-box-border input {border:0;width:auto;margin:auto;}
+#login-lite-form label {vertical-align:inherit;}
+#login-lite-form label.checkbox-label, #login-lite-form input.checkbox {vertical-align:middle;font-weight:normal;}
+#login-lite-form input.checkbox {margin:0;padding:0;}
+#login-lite-form input.text, #login-lite-form select {border:1px solid #7FA1CC;}
+#login-lite-form input.card-no, #login-lite-form input.dob-text {width:49px;margin-right:5px;padding-left:2px;padding-right:2px;}
+#login-lite-form input.postcode {width:113px;}
+#login-lite-form select {width:55px;font-size:11px;padding:2px 0;margin-right:5px;}
+#login-lite-form .form-row {width:100%;float:left;margin-bottom:10px;margin-right:10px;background:transparent;border:0;}
+#stage #login-lite-form .form-row-last {margin-bottom:0;}
+#login-lite-form .label-cell {float:left;width:129px;text-align:right;padding-right:10px;clear:left;}
+#login-lite-form .field-cell {float:left;width:72%;}
+#stage #login-lite-form .button-row .inner-box-border {width:63px;}
+
+#stage #login-lite-form div.form-row-error {background:#FCD9D9;padding:5px 0;border:1px solid #F9AEAE;}
+#stage #login-lite-form div.form-row-error label.error {margin:0 5px;}
+
+/*R3.2 SIG.01*/
+#stage .loginInternetBank{margin-right:300px;display:block;}
+#stage .loginMySave{float:right;width:282px;margin-left:-283px;}
+#stage .loginMySave .inner-box{font-size:14px;margin:18px 10px 10px 10px;padding-bottom:18px;padding-top:18px;margin-bottom:10px;}
+.loginMySaveContainer img{margin-bottom:10px;}
+.loginMySaveContainer {position:relative;padding-bottom:1px;background:url(MySave-logo-bg.png) repeat-x 0 100%;text-align:center;width:282px;-moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;padding-bottom:8px;margin:0 0 10px 0;}
+.loginMySaveContainer a, .loginMySaveContainer a:hover, .loginMySaveContainer a:visited {font-weight:bold;}
+.loginParentContainer {float:left;width:100%;}
+#stage .loginMySaveContainer-se { display: block; width: 8px; height: 8px; position: absolute; bottom: 0; right:0; background: url(MySave-logo-container-corners.gif) no-repeat -8px -8px; }
+#stage .loginMySaveContainer-sw { display: block; width: 7px; height: 7px; position: absolute; bottom: 0; left: 0; background: url(MySave-logo-container-corners.gif) no-repeat 0 -8px; }
+#cust-num-input b.reveal-info-down{display:block;right:-56px;}
+#cust-num-input strong, #cust-num-input b.reveal-info-down {position:relative;display:block;}
+/*NonRCALogin - drop down list fixces for cross-browser*/ 
+#log-in-details #stage .digit-row .touchdevice.thirdDropDown {padding-bottom:30px;} 
+#log-in-details #stage .digit-row .touchdevice.firstDropDown {padding-top:30px;} 
+#log-in-details #stage .digit-row .touchdevice {padding:20px;} 
+#log-in-details #stage .digit-row .digitborder{display:inline;} 
+#log-in-details #stage .digit-row {width:170px;}
+
+/*WP116 - EU Cookie Directive*/
+#eucookiedirective{position:relative;border:1px solid #DDD;text-align:left;color:#333;font-size:12px;padding:10px;background-color:#FFFFCC;margin-bottom:15px;-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+#eucookiedirective .eucookiedirective-ne { display: block; width: 4px; height: 4px; position: absolute; top: -1px; right: -1px; background: #fff url(innerRoundedBoxBorderCorners_FFFFCCC.png) no-repeat -4px 0; }
+#eucookiedirective .eucookiedirective-se { display: block; width: 4px; height: 4px; position: absolute; bottom: -1px; right: -1px; background: #fff url(innerRoundedBoxBorderCorners_FFFFCCC.png) no-repeat -4px -4px; }
+#eucookiedirective .eucookiedirective-sw { display: block; width: 4px; height: 4px; position: absolute; bottom: -1px; left: -1px; background: #fff url(innerRoundedBoxBorderCorners_FFFFCCC.png) no-repeat 0 -4px; }
+#eucookiedirective .eucookiedirective-nw { display: block; width: 4px; height: 4px; position: absolute; top: -1px; left: -1px; background: #fff url(innerRoundedBoxBorderCorners_FFFFCCC.png) no-repeat 0 0; }
+
+#forgottenDetailsTooltip, #forgottenPassnumberTooltip { width: 260px; }

@@ -1,0 +1,371 @@
+/*Updates for Release 6 right hand prompts*/ 
+
+.ourproducts{
+            width: 165px;
+            color: #0057bf;
+            font-family: Arial;
+}
+
+.ourproducts div{
+            overflow: hidden;
+            zoom: 1;
+}
+
+.ourproducts .product-header{
+            background-image: url(rhn-top.png);
+            height: 44px;
+}
+
+.ourproducts .product-header h2{
+            margin: 0px;
+            padding: 0px;
+            font-size: 16px;
+            padding: 7px 0 0 8px;
+            color: #004499;
+}
+
+.ourproducts .product-body{
+            background-image: url(rhn-middle.gif);
+            background-repeat: repeat-y;
+            padding-left: 5px;
+}
+
+.ourproducts .product-body .productCategory{
+            margin: 0 0 0 0px;
+            padding: 0px;
+            width: 147px;
+            padding-left: 5px;
+}
+
+.ourproducts .product-body .productCategory{
+            list-style-type: none;
+            border-bottom: 1px solid #cccccc;
+            margin: 10px 0 0 0;
+            padding: 0 0 10px 0;
+}
+
+.ourproducts .product-body .product-list-top{
+            margin-top: 0px; padding-top: 0px;
+}
+
+.ourproducts .product-body .product-list-bottom{
+            border: none;
+            padding-bottom: 0px;
+}
+
+.ourproducts .product-body .productCategory h3{
+            background-image: url(bulletArrow.gif);
+            background-position: 5px 1px;
+            background-repeat: no-repeat;
+            padding-left: 23px;
+            margin: 0px;
+}
+
+.ourproducts .product-body .productCategory h3 a, .ourproducts .product-body .productCategory h3 a:visited, .ourproducts .product-body .productCategory h3 a:active, .ourproducts .product-body .productCategory h3 a:link{
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            color: #0057bf;
+}
+.ourproducts .product-body .productCategory h3 a:hover{text-decoration:underline;}
+
+.ourproducts .product-body .productCategory ul{
+            margin: 0 0 0 30px;
+            padding: 0px;
+}
+
+.ourproducts .product-body .productCategory ul li{
+            list-style-type: none;
+            border: none;
+            margin: 0px;
+            padding: 0px;
+}
+
+.ourproducts .product-body .productCategory ul li a,
+.ourproducts .product-body .productCategory ul li a:visited,
+.ourproducts .product-body .productCategory ul li a:active,
+.ourproducts .product-body .productCategory ul li a:link{
+            font-size: 12px;
+            text-decoration: none;
+            color: #0057bf;
+}
+.ourproducts .product-body .productCategory ul li a:hover{text-decoration:underline;}
+.ourproducts .product-footer{
+            height: 12px;
+            background-image: url(rhn-bottom.png);
+            background-repeat: no-repeat;
+}
+
+/*Upgrade Buttons DH 29/12/13*/
+.btn-upgrade{background: #fff;position:relative;top:2px;padding:2px 19px 2px 4px;border:2px solid #ccc;border-radius:4px;height:18px;font-family: arial;font-weight:bold;font-size:11px;line-height:20px;color:#049;text-decoration:none;-webkit-transition : border 250ms ease,box-shadow 50ms ease;-moz-transition : border 250ms ease,box-shadow 50ms ease;-o-transition : border 250ms ease,box-shadow 50ms ease;transition : border 250ms ease,box-shadow 50ms ease;}
+.btn-upgrade-ie{display:none;}
+.notrans {-webkit-transition : none;-moz-transition :none;-o-transition : none;transition :none;}
+.btn-upgrade:before {display:block;height:12px;width:12px;background:red;content:"";border-radius:2px;position:absolute;right:3px;top:3px;}
+.btn-upgrade:after {display:block;height:0px;width:0px;border:4px solid white;border-top-color:transparent;border-bottom-color:transparent;border-right-width:0px;border-left-width:6px;content:"";position:absolute;right:5px;top:5px;}
+.btn-upgrade:hover, .btn-upgrade:focus {border:2px solid #999;outline:none;text-decoration:none;}
+.btn-upgrade:active {-webkit-box-shadow:inset 0 0 2px 0 rgba(170, 170, 170, 1);-moz-box-shadow:inset 0 0 2px 0 rgba(170, 170, 174, 1);box-shadow:inset 0 0 2px 0 rgba(170, 170, 170, 1);}
+
+/*Bottom prompt fix DL 24/12/13*/
+.bottom-prompts-container{
+    border: 2px solid #e4dac5;
+    display: block;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bottom-prompts-container .product{
+    display: block;
+    overflow: auto;
+    border-top: 1px solid #e4dac5;
+    padding: 25px 0 0 0;
+}
+.bottom-prompts-container .product:first-child{
+    border:none;
+    padding:0;
+}
+.bottom-prompts-container .product.last-product{
+    clear: both;
+    margin: 15px 0 0 0;
+}
+.bottom-prompts-container .product-name{
+    float: left;
+    width: 120px;
+}
+.bottom-prompts-container .product-link{
+    float: right;
+    background: url(white-arrow-red-box.gif) no-repeat scroll 0 2px;
+    padding-left: 16px;
+}
+.bottom-prompts-container .product-smallprint{clear: both;font-size : 11px !important;line-height : 13px;}
+
+/* MyOffers Prompt DL 09/03/15*/
+	/*-_-_-_-_ Hero offer -_-_-_-_*/
+	.my-offers-table .hero-offer .offer-inner{
+		background : linear-gradient(180deg, rgba(255, 255, 255, 1) 0%,
+		rgba(253, 253, 253, 1) 0%, rgba(240, 240, 240, 1) 100%);
+		border-radius : 8px;
+		box-shadow: 0 3px 4px #ccc;
+		border: solid #CCCCCC 1px;
+		position: relative;
+		height: 180px;
+		margin: 0 0 10px;
+	}
+	.my-offers-table .hero-offer .offer-image{
+		float: left;
+		display: block;
+		width: 250px;
+		height: 180px;
+		margin: 0 15px 0 0;
+		border-radius:8px 0 0 8px;
+		background-position: left !important;
+	}
+	.my-offers-table .hero-offer  .offer-image a{
+		display: block;
+		width: 250px;
+		height: 180px;
+	}
+	.my-offers-table .hero-offer .offer-content h2{
+		font-size : 20px !important;
+		line-height : 22px;
+		color : #004499 !important;
+		margin: 0 0 15px 0;
+		clear: none !important;
+	}
+
+	.my-offers-table .hero-offer .offer-content{
+		padding: 15px 15px 15px 0;
+	}
+
+	.my-offers-table .hero-offer .offer-content p{
+		font-size : 15px;
+		color : #3F3F3F;
+		margin: 0;
+		line-height : 17px;
+	}
+	.my-offers-table .hero-offer .offer-content ul{
+	  margin: 10px 0 0 256px;
+	}
+
+
+	.my-offers-table .hero-offer small{
+		font-family : Arial;
+		font-size : 11px;
+		line-height : 13px;
+		color : #3F3F3F;
+	}
+	.my-offers-table .hero-offer .offer-cta a{
+		font-size : 14px;
+	}
+
+	/*-_-_-_-_ Non Hero offer -_-_-_-_*/
+	tr .non-hero-offer-cell .non-hero-offer{
+		margin: 0 0 0 10px;
+	}
+	tr .non-hero-offer-cell:first-child .non-hero-offer{
+		margin: 0 10px 0 0;
+	}
+
+	.my-offers-table .non-hero-offer .offer-inner{
+		background : linear-gradient(180deg, rgba(255, 255, 255, 1) 0%,
+		rgba(253, 253, 253, 1) 0%, rgba(240, 240, 240, 1) 100%);
+		border-radius : 8px;
+		box-shadow: 0 3px 4px #ccc;
+		border: solid #CCCCCC 1px;
+		position: relative;
+		height: 180px;
+		margin: 0 0 10px;
+	}
+	.my-offers-table .non-hero-offer .offer-image{
+		float: left;
+		display: block;
+		width: 120px;
+		height: 180px;
+		margin: 0 10px 0 0;
+		border-radius:8px 0 0 8px;
+		background-position: right !important;
+	}
+	.my-offers-table .non-hero-offer  .offer-image a{
+		display: block;
+		width: 120px;
+		height: 180px;
+	}
+	.my-offers-table .non-hero-offer .offer-content h2{
+		font-size : 18px !important;
+		line-height : 20px;
+		color : #004499 !important;
+		margin: 0 0 10px 0;
+		clear: none !important;
+	}
+
+	.my-offers-table .non-hero-offer .offer-content{
+		padding: 10px 10px 10px 0;
+	}
+
+	.my-offers-table .non-hero-offer .offer-content p{
+		font-size : 13px;
+		color : #3F3F3F;
+		margin: 0;
+		line-height : 15px;
+	}
+	.my-offers-table .non-hero-offer small{
+		font-family : Arial;
+		font-size : 11px;
+		line-height : 13px;
+		color : #3F3F3F;
+	}
+	.my-offers-table .non-hero-offer .offer-cta a{
+		font-size : 13px;
+	}
+
+	/*-_-_-_-_ Hero and Non Hero offer -_-_-_-_*/
+	.my-offers-table .offer-content p{
+		font-size : 13px;
+		color : #3F3F3F;
+		margin: 0;
+		line-height : 15px;
+	}
+
+	.my-offers-table .offer-content .repEx{
+	   font-weight: bold;
+	   color: #DC291E;
+	}
+
+	.my-offers-table .offer-content ul{
+	  margin: 0 0 0 122px;
+	}
+	.my-offers-table .offer-cta{
+		position: absolute;
+		right: 15px;
+		bottom: 0px;
+	}
+	.my-offers-table .offer-cta a{
+		font-weight : bold;
+		color : #004499;
+		margin: 0 25px 0 0;
+		text-decoration:none;
+	}
+	.my-offers-table .offer-cta a:hover{
+		text-decoration:underline;
+	}
+	.my-offers-table .offer-cta a:after{
+		background:url("/cms/~/media/A7594F6140514826B32E014A7F2C4321.ashx") no-repeat scroll 0 2px transparent;
+		content: "";
+		height: 16px;
+		right: 0;
+		position: absolute;
+		top: 1px;
+		width: 16px;
+	}
+	.my-offers-table .offer-cta a.btn-CTA-button {
+		background: none repeat scroll 0 0 #FFFFFF;
+		border: 2px solid #CCCCCC;
+		border-radius: 4px;
+		display: block;
+		font-weight: bold;
+		line-height: 14px;
+		padding: 2px 19px 2px 4px;
+		position: relative;
+		text-decoration: none;
+		transition: border 250ms ease 0s, box-shadow 50ms ease 0s;
+		margin: 0;
+	}
+	.my-offers-table .offer-cta a.btn-CTA-button:after {
+		-moz-border-bottom-colors: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		border-color: transparent white;
+		border-image: none;
+		border-left: 6px solid white;
+		border-right: 0 solid white;
+		border-style: solid;
+		border-width: 4px 0 4px 6px;
+		content: "";
+		display: block;
+		height: 0;
+		position: absolute;
+		right: 5px;
+		top: 5px;
+		width: 0;
+		background: none;
+	}
+	.my-offers-table .offer-cta a.btn-CTA-button:before {
+		background: none repeat scroll 0 0 red;
+		border-radius: 2px;
+		content: "";
+		display: block;
+		height: 12px;
+		position: absolute;
+		right: 3px;
+		top: 3px;
+		width: 12px;
+	}
+
+	.my-offers-table .offer-cta a.btn-CTA-button:hover,
+	.my-offers-table .offer-cta a.btn-CTA-button:focus {
+		border:2px solid #999;outline:none;text-decoration:none;
+	}
+
+	.olList{
+	  margin: 10px 0 0 127px;
+	}
+	.olList li {
+	  margin: 0 0 5px 25px !important;
+	  position: relative;
+	}
+	.olList li:before{
+	  background:url("/cms/~/media/E0528D406CD84023834C91D519FD3FE0.ashx?w=8&amp;h=8&amp;as=1") no-repeat center center;
+	  content: "";
+	  height: 16px;
+	  left: -20px;
+	  position: absolute;
+	  top: -1px;
+	  width: 16px;
+	}
+	body.hicon-theme #stageInner .my-offers-table  .offer-inner{
+		background: none !important;
+		box-shadow: none;
+	}
+
+/* END - MyOffers Prompt DL 09/03/15*/
